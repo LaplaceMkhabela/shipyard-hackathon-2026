@@ -1,0 +1,64 @@
+.create-bg {
+  --background: url('../../assets/bg1.jpg');
+  --background-repeat: no-repeat;
+  --background-position: center center;
+  --background-size: cover;
+}
+
+.create-list-page {
+  --background: var(--color-dark-bg);
+  --color: var(--color-text-light);
+}
+
+.create-list-toolbar {
+  --background: var(--color-dark-bg);
+  --color: var(--color-text-light);
+}
+
+.create-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.instructions {
+  color: #c5c5c5;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+  text-align: left;
+}
+
+.input-item {
+  --background: #272727; /* Slightly lighter than page bg */
+  --border-radius: 17px;
+  width: 100%;
+  margin-bottom: 10px;
+  --color: #ffffff;
+  --border-color: #707070;
+  --border-width: 2px;
+  --border-style: solid
+}
+
+.custom-input {
+  --color: var(--color-text-light);
+  --placeholder-color: var(--color-text-muted);
+  
+}
+
+.hint-text {
+  color: #7f7b7a;
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+.generate-btn {
+  --border-radius: 10px;
+  font-weight: bold;
+  height: 50px;
+  width: 100%;
+  --color: #000000;
+  --background: #f59e0b;
+}

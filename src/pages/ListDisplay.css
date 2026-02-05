@@ -1,0 +1,55 @@
+.list-display-page {
+  --background: var(--color-dark-bg);
+  --color: var(--color-text-light);
+}
+
+.list-toolbar {
+  --background: var(--color-dark-bg);
+  --color: var(--color-text-light);
+}
+
+.list-container {
+  padding: 10px;
+}
+
+.list-title {
+  color: var(--color-text-light);
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.list-subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.ingredients-list {
+  background: transparent;
+}
+
+.ingredient-item {
+  --background: #1e1e1e; /* Slightly lighter box */
+  --border-radius: 10px;
+  margin-bottom: 10px;
+  --padding-start: 15px;
+  --inner-padding-end: 10px;
+}
+
+.ingredient-label h2 {
+  color: var(--color-text-light);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.ingredient-label p {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+/* Style for the checkbox specifically */
+ion-checkbox {
+  --border-radius: 4px;
+  --size: 24px;
+  margin-right: 15px;
+}
